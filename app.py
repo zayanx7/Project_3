@@ -9,6 +9,10 @@ app = Flask(__name__, static_url_path='/static')
 # Connect to SQLite database
 engine = create_engine('sqlite:///imdb.db')
 
+
+# Connect to the new SQLite database
+engine_landldata = create_engine('sqlite:///bmo.db')
+
 @app.route('/')
 def home():
     # Connect to SQLite database
@@ -84,13 +88,26 @@ def dashboard():
     # Close the connection
     conn.close()
 
-    print('ratings_distribution_data:', ratings_distribution_data)
-
 
     return render_template('dashboard.html',
                            ratings_distribution_data=ratings_distribution_data,
                            ratings_vs_revenue_data=ratings_vs_revenue_data,
                            votes_vs_ratings_data=votes_vs_ratings_data)
+
+
+@app.route('/map')
+def map_visualization():
+    # Connect to the new SQLite database
+    conn_landldata = sqlite3.connect('bmo.db')
+
+    # Query data with latitude and longitude from the 'landldata' table
+    query_landldata = 'SELECT Area, Latitude, Longitude, "#1 Release", "Weekend Gross" FROM landldata WHERE Latitude IS NOT NULL AND Longitude IS NOT NULL'
+    location_data = pd.read_sql_query(query_landldata, conn_landldata).to_dict(orient='records')
+
+    # Close the connection
+    conn_landldata.close()
+
+    return render_template('map.html', location_data=location_data)
 
 if __name__ == '__main__':
     app.run(debug=True)
