@@ -271,3 +271,8 @@ body, html {
 #map {
     height: 100vh;
 }
+
+/* Add this to your existing CSS file or style tag */
+.black-marker {
+    color: black; /* Set the color to black */
+}
