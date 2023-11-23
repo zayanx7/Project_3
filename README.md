@@ -16,7 +16,7 @@ link: https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000
 <img width="700" alt="kaggle" src="https://github.com/zayanx7/Project_3/assets/140313204/a9237488-5269-4a0c-b6a0-b1141542ef78">
 
 ## Project Outline
-This project showcases our skills in HTML, Flash, Javascript, Python & SQl. The team chose to explore movie success factors using the IMDb Top 1000 dataset due to the topic's broad appeal, real-world application in the film industry, and the dataset's richness. The intersection of data science, film studies, and business strategy, along with the opportunity for interdisciplinary learning and the practical application of technical skills using Flask and HTML, further motivated the selection of this engaging and multifaceted project.
+This project showcases our skills in HTML, Flask, Javascript, Python & SQl. The team chose to explore movie success factors using the IMDb Top 1000 dataset due to the topic's broad appeal, real-world application in the film industry, and the dataset's richness. The intersection of data science, film studies, and business strategy, along with the opportunity for interdisciplinary learning and the practical application of technical skills using Flask and HTML, further motivated the selection of this engaging and multifaceted project.
 
 ### Key Observations
 We wanted to explore certain factors that could influence movie success such as:
@@ -33,6 +33,7 @@ We wanted to explore certain factors that could influence movie success such as:
 *Flask-powered API
 *SQLite
 
-##Process Overview
-
+## Process Overview
+ 1. First we pulled data from csv file and made it into dataframe using jupyter notebook and pandas.
+<img width="600" alt="CSV" src="https://github.com/zayanx7/Project_3/assets/140313204/7a40b92d-ec4d-4431-8460-23d0bb78e385">
 
