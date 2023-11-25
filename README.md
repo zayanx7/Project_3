@@ -67,7 +67,7 @@ We added the Javascript files and HTML pages we created to tie this all in toget
 
 ## Home Page
 
-Upon executing our HTML pages, this is the finalised appearance of our homepage, featuring a streamlined interface complemented by an intuitive search box for efficient data exploration.
+Upon executing our HTML pages, this is the finalised appearance of our homepage, featuring a streamlined interface complemented by an intuitive search box for efficient data exploration. This is displayed in the [video](https://drive.google.com/file/d/1L2AB-HTnq0bFd26Xgl6fvuQnHUCFZZHe/view?usp=sharing)(https://drive.google.com/file/d/1L2AB-HTnq0bFd26Xgl6fvuQnHUCFZZHe/view?usp=sharing/view) below
 
 
 
