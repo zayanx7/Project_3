@@ -3,11 +3,13 @@
 
 Team : Kaj Kabilan , Zayan Mohammed , Temitope Ajose-adeogun , Shavez Hussain
 
-*Dataset
-*Project Outline
-*Tools used
-*Process Overview
-*Challenges
+* [Dataset](## dataset)
+* [Project Outline](## project-outline)
+* [Tools used](##tools-used)
+* [Process Overview](##process-overview)
+5. [HTML](##html)
+6. [Home Page](##home-page)
+7. [Challenges](#challenges)
 
 ## Dataset 
 Utilising Kaggle’s IMDB top 1000 movies dataset, we analysed movie information for meaningful insights, potentially influencing the movie development landscape.
@@ -30,19 +32,42 @@ We wanted to explore certain factors that could influence movie success such as:
 
 ## Tools used
 
-*HTML/CSS
-*Jupyter Notebook
-*Javascript (d3, leaflet)
-*Flask-powered API
-*SQLite
+* HTML/CSS
+* Jupyter Notebook
+* Javascript (d3, leaflet)
+* Flask-powered API
+* SQLite
 
 ## Process Overview
- 1. First we pulled data from csv file and made it into dataframe using jupyter notebook and pandas.
+ ### 1
+First we pulled data from csv file and made it into dataframe using jupyter notebook and pandas.
 <img width="600" alt="CSV" src="https://github.com/zayanx7/Project_3/assets/140313204/7a40b92d-ec4d-4431-8460-23d0bb78e385">
 
- 2.We extracted information from our base dataset and structure the data into a coherent DataFrame for efficient analysis. A Flask was implemented to create a robust API for seamless interaction with the IMDb Top 1000 dataset. The file was then exported to SQLite and tested the database in Jupyter Notebook
+ ### 2
+We extracted information from our base dataset and structure the data into a coherent DataFrame for efficient analysis. A Flask was implemented to create a robust API for seamless interaction with the IMDb Top 1000 dataset. The cleaned, updated file was then exported to SQLite and tested the database in Jupyter Notebook
 
 <img width="700" alt="clean" src="https://github.com/zayanx7/Project_3/assets/140313204/930211de-d60a-429e-8002-369aca3f672e">
+
+### 3
+We chose Flask, a powerful web framework for Python, to not only host our cleaned dataset but also to create a seamless connection with a database. This integration allows for efficient data retrieval and manipulation. Using Javascript we could work on the interactivity of the page
+
+<img width="700" alt="flask" src="https://github.com/zayanx7/Project_3/assets/140313204/5806db2a-f104-41a0-813c-1b104af4a53f">
+
+## HTML 
+
+### Designing the HTML
+
+As shown in our [templates folder](https://github.com/zayanx7/Project_3/tree/main/templates) we have 5 HTML files: Dashboard.html, index.html, map.html , movie_details.html and search_results.html .
+
+<img width="500" alt="ht" src="https://github.com/zayanx7/Project_3/assets/140313204/04343c45-f615-4b9b-a85b-2c1d072f7974">
+
+We called the Javascript files and HTML pages we created to tie this all in together
+Added links in the top bar to link to the other HTML files we created. 
+
+<img width="801" alt="dash" src="https://github.com/zayanx7/Project_3/assets/140313204/491ed6ce-00ca-430e-a623-0e598402ca61">
+
+
+
 
 
 
