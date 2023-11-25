@@ -61,10 +61,15 @@ As shown in our [templates folder](https://github.com/zayanx7/Project_3/tree/mai
 
 <img width="500" alt="ht" src="https://github.com/zayanx7/Project_3/assets/140313204/04343c45-f615-4b9b-a85b-2c1d072f7974">
 
-We called the Javascript files and HTML pages we created to tie this all in together
-Added links in the top bar to link to the other HTML files we created
+We added the Javascript files and HTML pages we created to tie this all in together. We then provided links in the top bar to link to the other HTML files we created
 
 <img width="800" alt="dash" src="https://github.com/zayanx7/Project_3/assets/140313204/491ed6ce-00ca-430e-a623-0e598402ca61">
+
+## Home Page
+
+Upon executing our HTML pages, this is the finalised appearance of our homepage, featuring a streamlined interface complemented by an intuitive search box for efficient data exploration.
+
+
 
 
 
