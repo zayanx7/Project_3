@@ -4,12 +4,12 @@
 Team : Kaj Kabilan , Zayan Mohammed , Temitope Ajose-adeogun , Shavez Hussain
 
 * [Dataset](#Dataset)
-* [Project Outline](## project-outline)
-* [Tools used](##tools-used)
-* [Process Overview](##process-overview)
-5. [HTML](##html)
-6. [Home Page](##home-page)
-7. [Challenges](#challenges)
+* [Project Outline](#Project-outline)
+* [Tools used](#Tools-used)
+* [Process Overview](#Process-overview)
+* [HTML](#html)
+* [Home Page](#Home_page)
+* [Challenges](#challenges)
 
 ## Dataset 
 Utilising Kaggle’s IMDB top 1000 movies dataset, we analysed movie information for meaningful insights, potentially influencing the movie development landscape.
