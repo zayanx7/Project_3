@@ -57,14 +57,14 @@ We chose Flask, a powerful web framework for Python, to not only host our cleane
 
 ### Designing the HTML
 
-As shown in our [templates folder](https://github.com/zayanx7/Project_3/tree/main/templates) we have 5 HTML files: Dashboard.html, index.html, map.html , movie_details.html and search_results.html .
+As shown in our [templates folder](https://github.com/zayanx7/Project_3/tree/main/templates) we have 5 HTML files: Dashboard.html, index.html, map.html , movie_details.html and search_results.html
 
 <img width="500" alt="ht" src="https://github.com/zayanx7/Project_3/assets/140313204/04343c45-f615-4b9b-a85b-2c1d072f7974">
 
 We called the Javascript files and HTML pages we created to tie this all in together
 Added links in the top bar to link to the other HTML files we created. 
 
-<img width="801" alt="dash" src="https://github.com/zayanx7/Project_3/assets/140313204/491ed6ce-00ca-430e-a623-0e598402ca61">
+<img width="800" alt="dash" src="https://github.com/zayanx7/Project_3/assets/140313204/491ed6ce-00ca-430e-a623-0e598402ca61">
 
 
 
