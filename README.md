@@ -3,7 +3,7 @@
 
 Team : Kaj Kabilan , Zayan Mohammed , Temitope Ajose-adeogun , Shavez Hussain
 
-* [Dataset](## dataset)
+* [Dataset](##Dataset)
 * [Project Outline](## project-outline)
 * [Tools used](##tools-used)
 * [Process Overview](##process-overview)
