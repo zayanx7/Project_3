@@ -26,10 +26,10 @@ This project showcases our skills in HTML, Flask, Javascript, Python & SQl. The 
 
 ### Key Observations
 We wanted to explore certain factors that could influence movie success such as:
- *Movie ratings and revenue: Understanding the financial impact of critical acclaim
- *Price and rating distribution: Exploring how pricing influences audience perception
- *Movie genre and rating distribution: Investigating the emotional engagement of different genres
- *Release date and revenue: Examining the temporal dynamics of box office success
+ * Movie ratings and revenue: Understanding the financial impact of critical acclaim
+ * Price and rating distribution: Exploring how pricing influences audience perception
+ * Movie genre and rating distribution: Investigating the emotional engagement of different genres
+ * Release date and revenue: Examining the temporal dynamics of box office success
 
 ## Tools used
 
