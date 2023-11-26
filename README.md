@@ -8,9 +8,9 @@ Team : Kaj Kabilan , Zayan Mohammed , Temitope Ajose-adeogun , Shavez Hussain
 * [Tools used](#Tools-used)
 * [Process Overview](#Process-overview)
 * [HTML](#html)
-* [Home Page](#Home_page)
-* [Challenges](#challenges)
-* [Conclusion](#conclusion)
+* [Home Page](#Homepage)
+* [Challenges](#Challenges)
+* [Conclusion](#Conclusion)
 
 ## Dataset 
 Utilising Kaggle’s IMDB top 1000 movies dataset, we analysed movie information for meaningful insights, potentially influencing the movie development landscape.
@@ -105,7 +105,7 @@ Expanding our horizons, we didn't stop at Kaggle. We ventured into the realm of 
 <img width="600" alt="geo" src="https://github.com/zayanx7/Project_3/assets/140313204/267c905f-c36e-4522-bd18-7d3b92a7fbcb">
 
 Geo API was used to retrieve the latitude and longitude for all the countries within the area column
-
+<img width="900" alt="apss" src="https://github.com/zayanx7/Project_3/assets/140313204/d39e6e1b-a4a6-4868-88b9-822514187b13">
 
 Every pop-up marker displays the information on movie name, country and weekends Gross 
 
