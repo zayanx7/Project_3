@@ -10,6 +10,7 @@ Team : Kaj Kabilan , Zayan Mohammed , Temitope Ajose-adeogun , Shavez Hussain
 * [HTML](#html)
 * [Home Page](#Home_page)
 * [Challenges](#challenges)
+* [Conclusion](#conclusion)
 
 ## Dataset 
 Utilising Kaggle’s IMDB top 1000 movies dataset, we analysed movie information for meaningful insights, potentially influencing the movie development landscape.
@@ -77,7 +78,7 @@ We incorporated a search bar to enhance navigation to refine what movie we are l
 If we input “2” into the search box, it fetches all the movie titles  that has 2 in them.
 if we further click on a single movie that has retrieved in the results, it will show you a shot synopsis, the release year, genre, director and runtime.
 
-[Video]](https://github.com/zayanx7/Project_3/assets/140313204/d8615a82-7827-4242-9819-3f1687ab1ebc)
+(https://github.com/zayanx7/Project_3/assets/140313204/d8615a82-7827-4242-9819-3f1687ab1ebc)
 
 ### Interaactive Dashboaard
 
