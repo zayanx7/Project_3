@@ -1,4 +1,4 @@
-![image](https://github.com/zayanx7/Project_3/assets/140313204/c7e91968-fdc4-413a-b306-ecb2e612a14f)![image](https://github.com/zayanx7/Project_3/assets/140313204/dd397416-c67b-4bb7-b158-1ed93dc2bef8)# Project_3 - An interactive IMDB dashboard
+![image](https://github.com/zayanx7/Project_3/assets/140313204/c0df9607-c7ce-4bcb-a1e5-f53ec6299de2)![image](https://github.com/zayanx7/Project_3/assets/140313204/c7e91968-fdc4-413a-b306-ecb2e612a14f)![image](https://github.com/zayanx7/Project_3/assets/140313204/dd397416-c67b-4bb7-b158-1ed93dc2bef8)# Project_3 - An interactive IMDB dashboard
 <img width="1200" alt="edit" src="https://github.com/zayanx7/Project_3/assets/140313204/3adb9c62-2d96-4308-9d30-6601dfcc2eef">
 
 Team : Kaj Kabilan , Zayan Mohammed , Temitope Ajose-adeogun , Shavez Hussain
@@ -120,6 +120,7 @@ Consideration: To address this limitation, we established an additional route fo
 
 ## Conclusion
 
+Overall, I think we managed to have a good insight on the relationships between various factors that influence movie success such as ratings, reviews and the revenue. With the time we have been given, think the database was good enough for us to explore the dataset. But I feel with more time we could done way more.  Combining other datasets that may contain more specific details of the movies. With more time We could have also found a way to loop in updated popular movies for our api so its constantly refreshing and updating. We wish we could have done web scraping but we found that a lot of raw text and too much data that would make it difficult for us.
 
 
 
