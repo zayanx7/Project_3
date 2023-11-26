@@ -105,7 +105,7 @@ Expanding our horizons, we didn't stop at Kaggle. We ventured into the realm of 
 <img width="600" alt="geo" src="https://github.com/zayanx7/Project_3/assets/140313204/267c905f-c36e-4522-bd18-7d3b92a7fbcb">
 
 Geo API was used to retrieve the latitude and longitude for all the countries within the area column
-[<img width="900" alt="apss" src="https://github.com/zayanx7/Project_3/assets/140313204/d39e6e1b-a4a6-4868-88b9-822514187b13">](https://github.com/zayanx7/Project_3/assets/140313204/db9a7091-d527-4fd1-8fc2-0b0776c2f3f7)
+https://github.com/zayanx7/Project_3/assets/140313204/db9a7091-d527-4fd1-8fc2-0b0776c2f3f7
 
 Every pop-up marker displays the information on movie name, country and weekends Gross 
 
