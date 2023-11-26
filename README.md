@@ -1,4 +1,4 @@
-![image](https://github.com/zayanx7/Project_3/assets/140313204/c0df9607-c7ce-4bcb-a1e5-f53ec6299de2)![image](https://github.com/zayanx7/Project_3/assets/140313204/c7e91968-fdc4-413a-b306-ecb2e612a14f)![image](https://github.com/zayanx7/Project_3/assets/140313204/dd397416-c67b-4bb7-b158-1ed93dc2bef8)# Project_3 - An interactive IMDB dashboard
+# Project_3 - An interactive IMDB dashboard
 <img width="1200" alt="edit" src="https://github.com/zayanx7/Project_3/assets/140313204/3adb9c62-2d96-4308-9d30-6601dfcc2eef">
 
 Team : Kaj Kabilan , Zayan Mohammed , Temitope Ajose-adeogun , Shavez Hussain
