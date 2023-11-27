@@ -40,11 +40,15 @@ We wanted to explore certain factors that could influence movie success such as:
 * SQLite
 
 ## Process Overview
- ### 1
+### 1
 First we pulled data from csv file and made it into dataframe using jupyter notebook and pandas.
 <img width="600" alt="CSV" src="https://github.com/zayanx7/Project_3/assets/140313204/7a40b92d-ec4d-4431-8460-23d0bb78e385">
 
 ### 2
+We exported the cleaned data to SQLite and tested the database in Jupyter Notebook
+![image (7)](https://github.com/zayanx7/Project_3/assets/140313204/86add3dc-9d9e-4cdf-b4df-1946d4e110c4)
+
+### 3
 We chose Flask, a powerful web framework for Python, to not only host our cleaned dataset but also to create a seamless connection with a database. This integration allows for efficient data retrieval and manipulation. Using Javascript we could work on the interactivity of the page
 
 <img width="700" alt="flask" src="https://github.com/zayanx7/Project_3/assets/140313204/5806db2a-f104-41a0-813c-1b104af4a53f">
