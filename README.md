@@ -44,12 +44,7 @@ We wanted to explore certain factors that could influence movie success such as:
 First we pulled data from csv file and made it into dataframe using jupyter notebook and pandas.
 <img width="600" alt="CSV" src="https://github.com/zayanx7/Project_3/assets/140313204/7a40b92d-ec4d-4431-8460-23d0bb78e385">
 
- ### 2
-We extracted information from our base dataset and structure the data into a coherent DataFrame for efficient analysis. A Flask was implemented to create a robust API for seamless interaction with the IMDb Top 1000 dataset. The cleaned, updated file was then exported to SQLite and tested the database in Jupyter Notebook
-
-<img width="700" alt="clean" src="https://github.com/zayanx7/Project_3/assets/140313204/930211de-d60a-429e-8002-369aca3f672e">
-
-### 3
+### 2
 We chose Flask, a powerful web framework for Python, to not only host our cleaned dataset but also to create a seamless connection with a database. This integration allows for efficient data retrieval and manipulation. Using Javascript we could work on the interactivity of the page
 
 <img width="700" alt="flask" src="https://github.com/zayanx7/Project_3/assets/140313204/5806db2a-f104-41a0-813c-1b104af4a53f">
