@@ -8,7 +8,7 @@ Team : Kaj Kabilan , Zayan Mohammed , Temitope Ajose-adeogun , Shavez Hussain
 * [Tools used](#Tools-used)
 * [Process Overview](#Process-overview)
 * [HTML](#html)
-* [Home Page](#Homepage)
+* [Home Page](#Home_Page)
 * [Challenges](#Challenges)
 * [Conclusion](#Conclusion)
 
@@ -65,7 +65,7 @@ We added the Javascript files and HTML pages we created to tie this all in toget
 
 <img width="800" alt="dash" src="https://github.com/zayanx7/Project_3/assets/140313204/491ed6ce-00ca-430e-a623-0e598402ca61">
 
-## Home Page
+## Home_Page
 
 This is the finalised appearance of our homepage, featuring a streamlined interface complemented by an intuitive search box for efficient data exploration. This is displayed in the video below 
 
