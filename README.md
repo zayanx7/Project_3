@@ -121,8 +121,7 @@ Consideration: To address this limitation, we established an additional route fo
 
 ## Conclusion
 
-Overall, I think we managed to have a good insight on the relationships between various factors that influence movie success such as ratings, reviews and the revenue. With the time we have been given, think the database was good enough for us to explore the dataset. But I feel with more time we could done way more.  Combining other datasets that may contain more specific details of the movies. With more time We could have also found a way to loop in updated popular movies for our api so its constantly refreshing and updating. We wish we could have done web scraping but we found that a lot of raw text and too much data that would make it difficult for us.
-
+Overall, I think we managed to have a good insight on the relationships between various factors that influence movie success such as ratings, reviews and the revenue. With the time we have been given, think the database was good enough for us to explore the dataset. But I feel with more time we could done way more.  Combining other datasets that may contain more specific details of the movies. With more time We could have also found a way to loop in updated popular movies for our api so its constantly refreshing and updating.
 
 
 
