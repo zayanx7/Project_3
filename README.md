@@ -95,7 +95,7 @@ Leveraging the flexibility of D3.js, we explored the intricate relationship betw
 We implemented a dynamic bar chart using Chart.js on the main project page. We chose a bar chart for its effectiveness in displaying comparative data and enhancing user interaction with the IMDb Top 1000 dataset.
 Data trends we noticed were that majority of the movies within the dataset were rated between 7 & 8 and the numbers reduced as the ratings increased. There are less than 20 movies with a rating of 9 within this dataset
 
-https://github.com/zayanx7/Project_3/assets/140313204/f1a576ba-1fce-4a38-8496-9d0b2cd9a268
+https://github.com/zayanx7/Project_3/assets/140313204/0cb21869-a233-4186-8f41-72038e6ea2d5
 
 ### Data Scraping & API
 
