@@ -81,18 +81,22 @@ def dashboard():
     ratings_vs_revenue_query = 'SELECT IMDB_Rating, Gross FROM imdb_data WHERE Gross IS NOT NULL'
     ratings_vs_revenue_data = pd.read_sql_query(ratings_vs_revenue_query, conn).to_dict(orient='records')
 
-    # Query the data for Votes vs. Ratings
-    votes_vs_ratings_query = 'SELECT No_of_Votes, IMDB_Rating FROM imdb_data WHERE No_of_Votes IS NOT NULL'
-    votes_vs_ratings_data = pd.read_sql_query(votes_vs_ratings_query, conn).to_dict(orient='records')
+    # Query the data for Votes vs. Genre (excluding rows where Genre is null or empty)
+    votes_vs_genre_query = 'SELECT No_of_Votes, Genre FROM imdb_data WHERE No_of_Votes IS NOT NULL AND Genre IS NOT NULL AND Genre != ""'
+    votes_vs_genre_data = pd.read_sql_query(votes_vs_genre_query, conn).to_dict(orient='records')
 
     # Close the connection
     conn.close()
 
+        # Modify the Genre column to include only the first genre
+    for entry in votes_vs_genre_data:
+        entry['Genre'] = entry['Genre'].split(',')[0].strip()
+
 
     return render_template('dashboard.html',
+                            votes_vs_genre_data=votes_vs_genre_data,
                            ratings_distribution_data=ratings_distribution_data,
-                           ratings_vs_revenue_data=ratings_vs_revenue_data,
-                           votes_vs_ratings_data=votes_vs_ratings_data)
+                           ratings_vs_revenue_data=ratings_vs_revenue_data)
 
 
 @app.route('/map')

@@ -25,7 +25,7 @@
     </script>
 
     <script>
-        var votes = {{ votes_vs_ratings_data|tojson}};
+        var votes = {{ votes_vs_genre_data|tojson}};
     </script>
 
 </head>
@@ -86,7 +86,7 @@
         <div id="imdb-ratings-vs-gross-revenue-chart"></div>
         <h2>Votes vs. Ratings</h2>
         <!-- Add your table for Votes vs. Ratings here -->
-        <svg id="votes-vs-ratings-chart" width="600" height="300"></svg>
+        <svg id="votes-vs-genre-chart" width="800" height="300"></svg>
     </div>    
 
 </body>
